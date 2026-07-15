@@ -829,26 +829,28 @@
         <a href="#about">আমাদের সম্পর্কে</a>
         <a href="#values">মূলনীতি</a>
         <a href="#journey">পথচলা</a>
-        <a href="#committee">কমিটি</a>
-        <a href="#join">সদস্য হোন</a>
-        <a href="#contact">যোগাযোগ</a>
-        <a href="https://www.facebook.com/share/1Jp9H3vPC9/" target="_blank" rel="noopener">ফেসবুক পেজ</a>
-        <a href="https://www.facebook.com/share/g/1S3D1Qv2ZC/" target="_blank" rel="noopener">ফেসবুক গ্রুপ</a>
-      </div>
-    </div>
-    <div class="foot-bottom">
-      <span>© 2026 Bangladesh Basic Graduate Student Nurses Association · Estd. 2012 · কেন্দ্রীয় কার্যালয়: ঢাকা নার্সিং কলেজ, ঢাকা</span>
-      <span>ঐক্য • অধিকার • মর্যাদা</span>
-    </div>
+        <div class="honor-row">
+  <span class="honor-sl">০৩</span>
+  <div class="honor-photo">৮ম</div>
+  <div class="honor-info">
+    <span class="role">সভাপতি</span>
+    <h4>ইমরানুল হক হিমেল</h4>
+    <span class="council">৮ম কার্যনির্বাহী পরিষদ</span>
   </div>
-</footer>
+</div> <!-- এখানে ৩৯ নম্বর লাইনের বাড়তি ট্যাগটি ফেলে দেওয়া হয়েছে -->
 
-<script>
-  const burger = document.getElementById('burger');
-  const navlinks = document.getElementById('navlinks');
-  burger.addEventListener('click', () => navlinks.classList.toggle('open'));
-  navlinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navlinks.classList.remove('open')));
+<!-- ৪র্থ ব্যক্তি: ৮ম সাধারণ সম্পাদক (নতুন যুক্ত করা হলো) -->
+<div class="honor-row">
+  <span class="honor-sl">০৪</span>
+  <div class="honor-photo">৮ম</div>
+  <div class="honor-info">
+    <span class="role">সাধারণ সম্পাদক</span>
+    <h4>সানজিদা আক্তার উর্মি</h4>
+    <span class="council">৮ম কার্যনির্বাহী পরিষদ</span>
+  </div>
+</div> <!-- এখানে ৫০ নম্বর লাইনের বাড়তি ট্যাগটি ফেলে দেওয়া হয়েছে -->
 
+<div class="honor-row placeholder">
   document.querySelectorAll('section .wrap > *').forEach(el => el.classList.add('reveal'));
   const io = new IntersectionObserver((entries) => {
     entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
